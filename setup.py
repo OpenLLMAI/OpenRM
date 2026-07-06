@@ -1,9 +1,9 @@
 import os
-import sys
-import subprocess
 import platform
-
+import subprocess
+import sys
 from datetime import datetime
+
 from setuptools import find_packages, setup
 from wheel.bdist_wheel import bdist_wheel as _bdist_wheel
 
